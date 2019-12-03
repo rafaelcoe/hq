@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 963 1497"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#573328;stroke-width:3.99764;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:#573328;stroke-width:2.24912;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:#573328;stroke-width:2.24912;stroke-linecap:round;stroke-linejoin:round}
+    .fil4 {fill:none}
+    .fil6 {fill:#FEFEFE}
+    .fil2 {fill:#FEFEFE}
+    .fil5 {fill:#373435}
+    .fil1 {fill:#452919}
+    .fil0 {fill:#6E4234}
+    .fil3 {fill:#D14841}
+    .fil7 {fill:#F7DA64}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M421 495c10,-16 114,-37 129,-24 10,22 -21,62 -54,68 -40,4 -82,-24 -75,-44z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M519 413c-2,-9 -3,-16 -2,-24 3,-39 29,-54 66,-39 15,16 9,43 -4,59 -17,11 -38,10 -60,4z"/>
+   </clipPath>
+   <clipPath id="id2">
+    <path d="M438 411c6,-44 -13,-85 -62,-63 -14,12 -15,31 -1,57 14,10 40,14 63,6z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <path class="fil0" d="M285 362c-4,5 -3,9 -3,15 0,8 0,6 2,14 3,7 11,14 19,14 2,0 5,0 4,-3 0,-4 -11,-3 -10,-14 0,-6 12,-14 5,-22 -2,-3 -9,-5 -13,-5 -1,0 -4,0 -4,1z"/>
+  <path class="fil0" d="M665 380c-2,-3 -1,-10 1,-13 2,-3 1,-3 4,-7 4,-4 15,-7 17,-2 1,2 0,14 -3,16 -4,3 -8,22 -12,27 -5,4 -7,8 -15,6 -6,-1 -3,-5 3,-6 2,0 9,-6 9,-9 0,-6 1,-7 -4,-11l0 -1z"/>
+  <path class="fil0" d="M448 445c10,4 19,8 30,8 9,0 21,-3 29,-7 -3,26 -42,20 -53,11 -6,-4 -7,-13 -6,-12z"/>
+  <path class="fil1" d="M421 495c10,-16 114,-37 129,-24 10,22 -21,62 -54,68 -40,4 -82,-24 -75,-44z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_524383512">
+    <path id="1" class="fil2" d="M431 487c6,6 13,10 23,13 22,0 45,-5 69,-17 4,-4 7,-10 9,-16 -35,1 -68,7 -101,20z"/>
+    <path class="fil3" d="M448 530c18,-37 58,-38 89,-16 -25,29 -54,32 -89,16z"/>
+   </g>
+  </g>
+  <path class="fil4" d="M421 495c10,-16 114,-37 129,-24 10,22 -21,62 -54,68 -40,4 -82,-24 -75,-44z"/>
+  <path class="fil4 str0" d="M504 454c5,-8 3,-15 -3,-22"/>
+  <path class="fil4 str0" d="M453 433c-7,10 -7,18 2,24"/>
+  <path class="fil1" d="M490 459c1,-2 8,-13 9,-6 1,2 -6,3 -9,5 0,0 0,1 0,1z"/>
+  <path class="fil1" d="M468 459c-3,-2 -7,-8 -8,-9 -2,0 -2,1 -1,3 0,3 5,4 7,5 2,1 4,2 2,1z"/>
+  <path class="fil4 str0" d="M285 376c-2,0 -5,-11 1,-14 5,-3 26,3 17,16 -4,4 -7,9 -6,15 0,4 8,8 11,8"/>
+  <path class="fil4 str0" d="M682 377c4,-3 9,-20 2,-21 -8,-2 -13,0 -17,7 -3,4 -5,16 0,19 3,3 5,11 -1,15 -2,2 -9,5 -12,5"/>
+  <path class="fil4 str0" d="M86 905c18,20 39,18 60,9"/>
+  <path class="fil4 str0" d="M68 943c14,22 34,35 56,42"/>
+  <path class="fil4 str0" d="M873 905c-19,20 -39,18 -61,9"/>
+  <path class="fil4 str0" d="M891 943c-15,22 -34,35 -56,42"/>
+  <path class="fil4 str0" d="M402 1190c-2,4 -11,34 11,30 7,-2 -2,-43 -6,-25 -1,1 0,2 0,3"/>
+  <path class="fil4 str0" d="M563 1190c3,4 11,34 -10,30 -8,-2 1,-43 6,-25 0,1 0,2 0,3"/>
+  <path class="fil0" d="M459 562c15,2 31,2 47,0l0 10c-15,11 -32,10 -48,2l1 -12z"/>
+  <ellipse class="fil1" cx="549" cy="388" rx="23" ry="29"/>
+  <ellipse class="fil2" transform="matrix(0.145101 -0.0982104 0.0982104 0.145101 556.192 371.621)" rx="39" ry="49"/>
+  <path class="fil4 str1" d="M525 342c15,-11 31,-14 49,-10"/>
+  <path class="fil4 str2" d="M372 332c20,-4 38,-3 53,9"/>
+  <path class="fil5" d="M517 386c0,-16 7,-29 18,-41 17,-10 39,-12 56,-3 8,16 9,43 -9,61l-65 -17z"/>
+  <path class="fil5" d="M559 417c7,0 13,-1 19,-2 2,-3 4,-7 5,-11l-24 13z"/>
+  <path class="fil6" d="M519 413c-2,-9 -3,-16 -2,-24 3,-39 29,-54 66,-39 15,16 9,43 -4,59 -17,11 -38,10 -60,4z"/>
+  <g style="clip-path:url(#id1)">
+   <g id="_524379360">
+    <ellipse class="fil1" cx="539" cy="387" rx="26" ry="32"/>
+    <ellipse class="fil6" transform="matrix(0.132086 -0.0639558 0.0639558 0.132086 545.272 369.054)" rx="47" ry="57"/>
+   </g>
+  </g>
+  <path class="fil4" d="M519 413c-2,-9 -3,-16 -2,-24 3,-39 29,-54 66,-39 15,16 9,43 -4,59 -17,11 -38,10 -60,4z"/>
+  <path class="fil5" d="M594 347c4,-2 7,-4 10,-7 1,0 1,0 1,1 -1,8 -5,12 -10,15l-1 -9z"/>
+  <path class="fil5" d="M596 356c5,0 9,0 14,-2 0,0 1,0 0,1 -4,8 -10,11 -16,11l-1 -10 3 0z"/>
+  <path class="fil1" d="M519 267c-1,-5 -1,-11 2,-16 27,-18 52,-15 78,19 -27,-9 -54,-8 -80,-3z"/>
+  <path class="fil5" d="M438 379c-2,-41 -42,-52 -73,-39 -10,24 -5,44 8,61l65 -22z"/>
+  <path class="fil5" d="M373 401c0,4 1,7 3,11 7,2 14,2 21,1l-24 -12z"/>
+  <path class="fil6" d="M438 411c6,-44 -13,-85 -62,-63 -14,12 -15,31 -1,57 14,10 40,14 63,6z"/>
+  <g style="clip-path:url(#id2)">
+   <g id="_524409912">
+    <ellipse class="fil1" cx="415" cy="387" rx="26" ry="32"/>
+    <ellipse class="fil6" transform="matrix(0.132086 -0.0639558 0.0639558 0.132086 421.517 369.054)" rx="47" ry="57"/>
+   </g>
+  </g>
+  <path class="fil4" d="M438 411c6,-44 -13,-85 -62,-63 -14,12 -15,31 -1,57 14,10 40,14 63,6z"/>
+  <path class="fil5" d="M363 345c-4,-2 -8,-5 -12,-7 0,-1 -1,0 -1,0 2,8 6,13 11,17l2 -10z"/>
+  <path class="fil5" d="M361 357c-4,-2 -8,-4 -12,-6 -1,0 -1,0 -2,1 3,7 8,12 14,15l0 -10z"/>
+  <path class="fil1" d="M440 269c1,-6 1,-12 -1,-17 -31,-17 -57,-9 -79,19 23,-11 50,-12 80,-2z"/>
+  <path class="fil7" d="M449 607c13,29 45,32 64,0 3,0 6,1 9,2 1,29 9,57 20,82 19,99 31,203 31,307 -27,4 -52,33 -76,45 -10,1 -19,1 -29,0 -25,-15 -49,-39 -77,-45 -3,-104 11,-211 30,-307 11,-25 16,-52 17,-81 3,-1 8,-2 11,-3z"/>
+ </g>
+</svg>

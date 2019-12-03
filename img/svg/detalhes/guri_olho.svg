@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 963 1497"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:#452919}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <ellipse class="fil0" cx="549" cy="385" rx="23" ry="29"/>
+  <ellipse class="fil1" transform="matrix(0.145909 -0.0987571 0.0987571 0.145909 555.735 368.713)" rx="39" ry="49"/>
+  <ellipse class="fil0" cx="412" cy="385" rx="23" ry="29"/>
+  <ellipse class="fil1" transform="matrix(0.145909 -0.0987571 0.0987571 0.145909 419.068 368.713)" rx="39" ry="49"/>
+ </g>
+</svg>

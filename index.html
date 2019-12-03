@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Livro Digital - Secretaria Municipal da Educação | Prefeitura de Salvador</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/montagem.css">
+</head>
+
+<body>
+    <div class="container">
+       <div class="montagem">
+           Olá
+       </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+               <div id="personagem">
+                    <div id="cabelo">
+                        <img class="cabelo cabelo_crespo" src="img/svg/cabelo_tipo/guri_cabelo_crespo.svg" alt="">
+                        <img class="cabelo cabelo_enrolado" src="img/svg/cabelo_tipo/guri_cabelo_enrolado.svg" alt="">
+                        <img class="cabelo cabelo_liso" src="img/svg/cabelo_tipo/guri_cabelo_liso.svg" alt="">
+                    </div>
+                    
+                    <div id="genero">
+                        <img class="genero genero_guri" src="img/svg/genero/genero_guri.svg" alt="">
+                        <img class="genero genero_menina" src="img/svg/genero/genero_menina.svg" alt="">
+                    </div>
+                    
+                    <div id="olhos">
+                    
+                    </div>
+                    
+                    <div id="pele">
+                        <img class="pele pele_negra" src="img/svg/pele/pele_negra.svg" alt="">
+                        <img class="pele pele_morena" src="img/svg/pele/pele_morena.svg" alt="">
+                        <img class="pele pele_branca" src="img/svg/pele/pele_branca.svg" alt="">
+                        <img class="pele pele_padrao" src="img/svg/pele/pele_padrao.svg" alt="">
+                    </div>
+                    
+                    <div id="roupa">
+                        <img class="roupa roupa_farda_escolar" src="img/svg/roupa_tipo/roupa_farda_escolar.svg" alt="">
+                        <img class="roupa roupa_bahia" src="img/svg/roupa_tipo/roupa_bahia.svg" alt="">
+                        <img class="roupa roupa_vitoria" src="img/svg/roupa_tipo/roupa_vitoria.svg" alt="">
+                        <img class="roupa roupa_heroi_homem_aranha" src="img/svg/roupa_tipo/roupa_heroi_homem_aranha.svg" alt="">
+                    </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <!-- Accordion -->
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button"  data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Bem-Vindo a Criação do livro digital! #1
+                                </button>
+                            </h5>
+                        </div>
+                
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                'Bem-Vindo!' é um material endereçado ao público de jovens adultos e adultos de qualquer nacionalidade que
+                                queira aprender português, com sotaque
+                                brasileiro, como língua estrangeira. Esta edição foi desenvolvida para ser utilizada com alunos desde o nível
+                                iniciante até o pós-intermediário.
+                                <div class="form-group row">
+                                    <div class="offset-6 col-8">
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseInicio" aria-expanded="false" aria-controls="collapseInicio">Começar o personagem</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accordion Inicio  -->
+                    <div class="card">
+                        <div class="card-header" id="headingInicio">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-target="#collapseInicio" aria-expanded="false" aria-controls="collapseInicio">
+                                   Inicio #2
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseInicio" class="collapse" aria-labelledby="headingInicio" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <form name="formCadastro" id="formCadastro" action="" method="post">
+                                
+                                    <fieldset class="form-group">
+                                        <div class="row">
+                                            <legend class="col-form-label col-3">Genero</legend>
+                                            <div class="col-9"><!-- Genero -->
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="radio" name="genero" id="legendRadio1" value="menino">Menino
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="radio" name="genero" id="legendRadio2" value="menina"> Menina
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                
+                                    <div class="form-group row"><!-- Nome -->
+                                        <label for="first_name" class="col-3 col-form-label">Nome</label>
+                                        <div class="col-9">
+                                            <input type="text" name="nome" id="nome" class="form-control pnome mb-2">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row"><!-- Dedicatoria -->
+                                        <label for="last_name" class="col-12 col-form-label">Dedicatória</label>
+                                        <div class="col-12">
+                                            <textarea type="text" name="dedicatoria" id="dedicatoria" class="form-control pdedicatoria mb-2"></textarea>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="form-group row">
+                                        <div class="offset-9 col-4">
+
+                                            <button id="passo1" class="btn btn-primary 1" type="button"  data-target="#collapsePele" aria-expanded="false" aria-controls="collapsePele">Avançar</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accordion Pele  -->
+                    <div class="card">
+                        <div class="card-header" id="headingPele">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button"  data-target="#collapsePele" aria-expanded="false" aria-controls="collapsePele">
+                                    Cor da pele #3
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapsePele" class="collapse" aria-labelledby="headingPele" data-parent="#accordionExample">
+                            <form name="formPele" id="formPele" action="" method="post">
+                                <div class="card-body">
+
+                                    <p>Escolha a cor da pele do seu personagem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam nemo mollitia autem nesciunt blanditiis quis corporis, quod repudiandae.</p>
+                                    
+                                    <div class="mb-5">
+                                        <form class="form cf"><!-- Tipo Pele -->
+                                            <section id="custom_pele" class="pele cf">
+                                                <h5><strong>Escolha a cor do personagem</strong></h5>
+                                                <input type="radio" name="pele" id="p_branca" value="branca" ><label class="input-pele free-label four col" for="p_branca"><img src="img/svg/pele/pele_branca.svg" width="100%" alt=""></label>
+                                                <input type="radio" name="pele" id="p_morena" value="morena"><label class="input-pele basic-label four col"for="p_morena"><img src="img/svg/pele/pele_morena.svg" width="100%" alt=""></label>
+                                                <input type="radio" name="pele" id="p_negra" value="negra"><label class="input-pele premium-label four col" for="p_negra"><img src="img/svg/pele/pele_negra.svg" width="100%" alt=""></label>
+                                            </section>
+                                        </form>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="offset-9 col-4">
+                                            <button id="passo2" class="btn btn-primary 2" type="button"  data-target="#collapseCabelo" aria-expanded="false" aria-controls="collapseCabelo">Avançar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Accordion Cabelo Tipo -->
+                    <div class="card">
+                        <div class="card-header" id="headingCabelo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button"  data-target="#collapseCabelo"
+                                    aria-expanded="false" aria-controls="collapseCabelo">
+                                    Cabelo #4
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseCabelo" class="collapse" aria-labelledby="headingCabelo" data-parent="#accordionExample">
+                            <form class="" name="formCabelo" id="formCabelo" action="" method="post">
+                                <div class="card-body">
+
+                                    <p>Escolha o tipo de cabelo do personagem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam nemo mollitia autem nesciunt blanditiis quis corporis, quod repudiandae.</p>
+                                    
+                                    <div class="">
+                                        <form class="form cf"><!-- Cabelo Tipo -->
+                                            <section id="custom_cabelo" class="cabelo cf">
+                                                <h5><strong>Escolha o tipo de cabelo do personagem</strong></h5>
+                                                <input type="radio" name="cabelo" id="cabelo-tipo-1" value="guri_cabelo_indio"><label class="input-cabelo free-label four col" for="cabelo-tipo-1"><img src="img/svg/cabelo_tipo/guri_cabelo_indio.svg" width="100%" alt=""></label>
+                                                
+                                                <input type="radio" name="cabelo" id="cabelo-tipo-2" value="guri_cabelo_liso"><label class="input-cabelo basic-label four col" for="cabelo-tipo-2"><img src="img/svg/cabelo_tipo/guri_cabelo_liso.svg" width="100%" alt=""></label>
+                                                
+                                                <input type="radio" name="cabelo" id="cabelo-tipo-3" value="guri_cabelo_enrolado"><label class="input-cabelo premium-label four col" for="cabelo-tipo-3"><img src="img/svg/cabelo_tipo/guri_cabelo_enrolado.svg" width="100%" alt=""></label>
+                                                
+                                                <input type="radio" name="cabelo" id="cabelo-tipo-4" value="guri_cabelo_crespo"><label class="input-cabelo premium-label four col" for="cabelo-tipo-4"><img src="img/svg/cabelo_tipo/guri_cabelo_crespo.svg" width="100%" alt=""></label>
+                                            </section>
+                                        </form>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="offset-9 col-4">
+                                            <button id="passo3" class="btn btn-primary 3" type="button"  data-target="#collapseCabeloCor" aria-expanded="false" aria-controls="collapseCabeloCor">Avançar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Accordion Cor de cabelo  -->
+                    <div class="card">
+                        <div class="card-header" id="headingCabeloCor">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button"  data-target="#collapseCabeloCor"
+                                    aria-expanded="false" aria-controls="collapseCabeloCor">
+                                    Cor do cabelo #5
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseCabeloCor" class="collapse" aria-labelledby="headingCabeloCor" data-parent="#accordionExample">
+                            <form class="form cf"  name="formCabeloCor" id="formCabeloCor" action="" method="post">
+                                <div class="card-body">
+                                    <h5>Escolha a cor do cabelo do personagem</h5>
+                        
+                                    <p>Escolha a cor do cabelo do personagem Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam nemo mollitia autem nesciunt blanditiis quis corporis, quod repudiandae.</p>
+
+                                    <div class="">
+                                        <form class="form cf"><!-- Cabelo Cor -->
+                                            <section id="custom_cabelo" class="cabelo cf">
+                                                <h5><strong>Escolha o tipo de cabelo do personagem</strong></h5>
+                                                <input type="radio" name="cabelo_cor" id="cabelo-cor-1" value="preto"><label class="input-cabelo free-label four col" for="cabelo-cor-1"><img src="img/svg/cabelo_tipo/guri_cabelo_indio.svg" width="100%" alt=""></label>
+                                                
+                                                <input type="radio" name="cabelo_cor" id="cabelo-cor-2" value="castanho"><label class="input-cabelo basic-label four col" for="cabelo-cor-2"><img src="img/svg/cabelo_tipo/guri_cabelo_liso.svg" width="100%" alt=""></label>
+                                                
+                                                <input type="radio" name="cabelo_cor" id="cabelo-cor-3" value="branco"><label class="input-cabelo premium-label four col" for="cabelo-cor-3"><img src="img/svg/cabelo_tipo/guri_cabelo_enrolado.svg" width="100%" alt=""></label>
+                                                
+                                                <input type="radio" name="cabelo_cor" id="cabelo-cor-4" value="loiro"><label class="input-cabelo premium-label four col" for="cabelo-cor-4"><img src="img/svg/cabelo_tipo/guri_cabelo_crespo.svg" width="100%" alt=""></label>
+                                            </section>
+                                        </form>
+                                    </div>
+                                    
+                                    <div class="form-group row">
+                                        <div class="offset-9 col-4">
+                                            <button id="passo4" class="btn btn-primary 4" type="button"  data-target="#collapseRoupa" aria-expanded="false" aria-controls="collapseRoupa">Avançar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Accordion Roupa  -->
+                    <div class="card">
+                        <div class="card-header" id="headingRoupa">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button"  data-target="#collapseRoupa" aria-expanded="false" aria-controls="collapseRoupa">
+                                    Roupa #5
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseRoupa" class="collapse" aria-labelledby="headingRoupa" data-parent="#accordionExample">
+                            <form class="form cf" name="formRoupa" id="formRoupa" action="" method="post">
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit numquam id, commodi quaerat mis officiis iste. Maiores.</p>
+                                    <h5><strong>Escolha a roupa</strong></h5>
+                                    <div class="">
+                                        <form class="form cf"><!-- Roupa  -->
+                                            <section class="roupa cf">
+                                                <input type="radio" name="roupa" id="roupa-1" value="farda_escolar"><label class="free-label four col" for="roupa-1"><img src="img/svg/roupa_tipo/roupa_farda_escolar.svg" width="100%" alt=""></label>
+                                    
+                                                <input type="radio" name="roupa" id="roupa-2" value="heroi_homem_aranha"><label class="basic-label four col" for="roupa-2"><img src="img/svg/roupa_tipo/roupa_heroi_homem_aranha.svg" width="100%" alt=""></label>
+                                    
+                                                <input type="radio" name="roupa" id="roupa-3" value="uniforme_bahia"><label class="premium-label four col" for="roupa-3"><img src="img/svg/roupa_tipo/roupa_bahia.svg" width="100%" alt=""></label>
+                                    
+                                                <input type="radio" name="roupa" id="roupa-4" value="uniforme_vitoria"><label class="premium-label four col" for="roupa-4"><img src="img/svg/roupa_tipo/roupa_vitoria.svg" width="100%" alt=""></label>
+                                            </section>
+                                        </form>
+                                    </div>
+
+                                    
+                                    <div class="form-group row">
+                                        <div class="offset-9 col-4">
+                                            <button id="passo5" class="btn btn-primary 5" type="button"  data-target="#collapseAcessorios" aria-expanded="false" aria-controls="collapseAcessorios">Avançar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Accordion Acessorios  -->
+                    <div class="card">
+                        <div class="card-header" id="headingAcessorios">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button"  data-target="#collapseAcessorios" aria-expanded="false" aria-controls="collapseAcessorios">
+                                    Acessórios #6
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseAcessorios" class="collapse" aria-labelledby="headingAcessorios" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.</p>
+                                <div class="form-group row">
+                                    <div class="offset-8 col-4">
+                                        <button id="finalizarcriacao"  class="btn btn-primary" type="button"  data-target="#collapseAcessorios" aria-expanded="false" aria-controls="collapseAcessorios">Finalizar criação</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="demo"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+
+                <!--
+                <div id="montagem">
+                    <div id="cabelo">
+                        <img class="cabelo cabelo_crespo" src="img/svg/cabelo_tipo/guri_cabelo_crespo.svg" alt="">
+                        <img class="cabelo cabelo_enrolado" src="img/svg/cabelo_tipo/guri_cabelo_enrolado.svg" alt="">
+                        <img class="cabelo cabelo_liso" src="img/svg/cabelo_tipo/guri_cabelo_liso.svg" alt="">
+                    </div>
+
+                    <div id="genero">
+                        <img class="genero genero_guri" src="img/svg/genero/genero_guri.svg" alt="">
+                        <img class="genero genero_menina" src="img/svg/genero/genero_menina.svg" alt="">
+                    </div>
+
+                    <div id="olhos">
+
+                    </div>
+
+                    <div id="pele">
+                        <img class="pele pele_negra" src="img/svg/pele/pele_negra.svg" alt="">
+                        <img class="pele pele_morena" src="img/svg/pele/pele_morena.svg" alt="">
+                        <img class="pele pele_branca" src="img/svg/pele/pele_branca.svg" alt="">
+                        <img class="pele pele_padrao" src="img/svg/pele/pele_padrao.svg" alt="">
+                    </div>
+
+                    <div id="roupa">
+                        <img class="roupa roupa_farda_escolar" src="img/svg/roupa_tipo/roupa_farda_escolar.svg" alt="">
+                        <img class="roupa roupa_bahia" src="img/svg/roupa_tipo/roupa_bahia.svg" alt="">
+                        <img class="roupa roupa_vitoria" src="img/svg/roupa_tipo/roupa_vitoria.svg" alt="">
+                        <img class="roupa roupa_heroi_homem_aranha"
+                            src="img/svg/roupa_tipo/roupa_heroi_homem_aranha.svg" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/plugin/jquery-validation/jquery.validate.js"></script>
+    <script src="js/plugin/jquery-validation/localization/messages_pt_BR.js"></script>    
+    <script src="js/validacao.js"></script>
+
+    <script src="js/armazenar2.js"></script>
+</body>
+
+</html>
